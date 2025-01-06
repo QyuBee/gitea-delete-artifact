@@ -1,12 +1,12 @@
 # Gitea Delete artifacts
 
-Based on [https://github.com/GeekyEggo/delete](https://github.com/GeekyEggo/delete).
+Based on [https://github.com/GeekyEggo/delete](https://github.com/GeekyEggo/delete) and [https://github.com/ChristopherHX/gitea-download-artifact/](https://github.com/ChristopherHX/gitea-download-artifact/commit/75635f32b4c1c41c4b3d64e8f85210112ed4c9c7#diff-3d2b59189eeedc2d428ddd632e97658fe310f587f7cb63b01f9b98ffc11c0197R2700).
 
 A GitHub Action for deleting artifacts within the workflow run. This can be useful when artifacts are shared across jobs, but are no longer needed when the workflow is complete.
 
 ## ✅ Compatibility
 
-| `actions/upload-artifact` | `geekyeggo/delete-artifact` |
+| `actions/upload-artifact` | `QyuBee/gitea-delete-artifact` |
 | ------------------------- | --------------------------- |
 | `@v4`                     | `@v5`                       |
 
