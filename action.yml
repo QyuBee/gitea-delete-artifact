@@ -1,4 +1,4 @@
-name: Delete Artifact
+name: Gitea Delete Artifact
 description: Delete artifacts created within the workflow run.
 inputs:
   name:
