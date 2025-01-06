@@ -1,7 +1,6 @@
-![CI](https://github.com/GeekyEggo/delete-artifact/workflows/CI/badge.svg)
-![Example](https://github.com/GeekyEggo/delete-artifact/workflows/Example/badge.svg)
+# Gitea Delete artifacts
 
-# Delete artifacts
+Based on [https://github.com/GeekyEggo/delete](https://github.com/GeekyEggo/delete).
 
 A GitHub Action for deleting artifacts within the workflow run. This can be useful when artifacts are shared across jobs, but are no longer needed when the workflow is complete.
 
@@ -9,8 +8,7 @@ A GitHub Action for deleting artifacts within the workflow run. This can be usef
 
 | `actions/upload-artifact` | `geekyeggo/delete-artifact` |
 | ------------------------- | --------------------------- |
-| `@v1`, `@v2`, `@v3`       | `@v1`, `@v2`                |
-| `@v4`                     | ~~@v4~~, `@v5`              |
+| `@v4`                     | `@v5`                       |
 
 <!-- prettier-ignore -->
 > [!TIP]
